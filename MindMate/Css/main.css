@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: rgba(4, 51, 114, 0.349);
 }
 nav a{
     text-decoration: none;
@@ -26,6 +27,7 @@ nav a :hover{
 }
 #contenido{
     background-color: rgba(0, 0, 0, 0.158);
+    float: left;
     margin: 4%;
     padding: 10px 25px 10px 25px;
     border: rgba(0, 0, 0, 0.411) 0.2em solid;
@@ -40,8 +42,12 @@ nav a :hover{
 }
 footer{
     text-align: center;
-    
 }
+    h1{
+text-align: center;
+font-size: 105px;
+padding-right: 450px;
+    }
 footer a{
     text-decoration: none;
     color: black;
@@ -49,20 +55,10 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
-h1{
-    text-align: center;
-    font-size: 42px;
-    color: black;
-}
+
 header{
-    line-height: 170px;
+    line-height: 270px;
     margin: 2%;
-    border: black 0.2em solid;
-}
-#titulo1{
-    font-size: 42px;
-    color: black;
-    margin-right: 20%
 }
 h2{
     color: black;
@@ -70,9 +66,9 @@ h2{
     font-size: 25px
 }
 #logo{
-    width: 9%;
+    width: 20%;
     float: left;
-    margin-left: 20%
+    margin-left: 0%
 }
 #img1{
     float: right;
@@ -80,8 +76,7 @@ h2{
     width: 45%
 }
 #img2{
-    float: left;
-    margin-right: 2%;
+    width: 16%
     
 }
 #img3{
@@ -102,34 +97,7 @@ h2{
     float: left;
     margin-right: 15px;
 }
-#img7{
-    float: right;
-    margin-left: 15px;
-    margin-bottom: 15px;
-}
-#img8{
-    margin-left: 300px;
-}
-#img9{
-    float: right;
-    margin-right: 300px
-}
-#img10{
-    float: right;
-    margin-top: 40px
 
-}
-#cartelera1{
-    line-height: 2.5em;
-}
-#cartelera2{
-   
-    line-height: 2.5em;
-}
-#cartelera3{
-    line-height: 2.5em;
-    margin-top: 70px
-}
 hr{
     border: black 1px solid
 }
@@ -177,16 +145,13 @@ iframe{
 
 @media screen and (max-width:900px){
     #logo{
-        width: 29%;
-        margin: 0 auto;
-        display: block;
+        width: 45%;
+        float: left;
     }
-        h1{
-        text-align: center;
-        display: none;
     }
-    #titulo1{
-        margin: 0;
+    h1{
+        margin-right: 0;
+        
     }
     nav a{
         width: 100%;
@@ -202,6 +167,8 @@ iframe{
     }
     #contenido{
         text-align: justify
+        float: left;
+
     }
     iframe{
         width: 100%
